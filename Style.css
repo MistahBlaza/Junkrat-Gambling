@@ -1,0 +1,153 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+.lordaura {
+    width: 200px;
+    height: 150px;
+}
+.background {
+    background-image: url('Junkrat mugshot.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img {
+size: fill;
+}
+
+#Weather {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    background: none;
+    font-size: 20px;
+    font-weight: 200;
+    width: fit-content;
+
+}
+
+.title1 {
+    text-align: center;
+    color: #FFCF07; 
+    font-size: 80px;
+    margin: 0;
+    text-shadow: 2px 2px 2px #000000; 
+}
+.intro  {
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    align-self: center;
+
+}
+article {
+    margin: auto;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    gap: 400px;
+}
+.nav-button{
+    text-decoration: none;
+    color: gold;
+    padding: 8px 40px;
+    background-color: royalblue;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+header{
+    background-color:  #ffffff83;
+}
+.middle-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 700px;
+    padding: 250px 0;
+}
+.actual-button {
+    text-decoration: none;
+    color: gold;
+    font-size: 50px;
+    font-weight: 900;
+    background-color: royalblue;
+    border-radius: 8px;
+    border: double black;
+    display: flex;
+    padding: 8px;
+    width: fit-content;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.bottom-button {
+    color: gold;
+    font-size: 50px;
+    font-weight: 900;
+    background-color: royalblue;
+    border-radius: 8px;
+    border: black;
+    display: flex;
+    padding: 8px;
+    width: fit-content;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.Brigma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ShipTitle {
+    color: #e25098;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.LordAuraImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+
+}
+
+#Random-Button {
+    color: #25F5FC;
+    text-shadow: 2px 2px 2px #000000;
+    background: linear-gradient(45deg, #f00, #ff0, #0f0, #0ff, #00f, #f0f);
+    padding: 5px;
+    text-decoration: none;
+    width: fit-content;
+    position: fixed;
+    right: 200px;
+    animation: mymove 4s infinite;
+}
+@keyframes  mymove {
+    from {transform: scale(1);}
+    25% {transform scale(1.25);}
+    50% {transform: scale(1.5);}
+    75% {transform: scale(1.25);}
+    to {transform: scale(1);}
+}
